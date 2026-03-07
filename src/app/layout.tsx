@@ -3,7 +3,7 @@ import { Syne, DM_Sans, IBM_Plex_Mono } from 'next/font/google'
 import '@/styles/globals.css'
 import { Nav }    from '@/components/layout/Nav'
 import { Footer } from '@/components/layout/Footer'
-import { isValidLang, getT, type Lang } from '@/lib/i18n'
+import { isValidLang, getT, type Lang } from '@/i18n'
 import { notFound } from 'next/navigation'
 
 const syne = Syne({
