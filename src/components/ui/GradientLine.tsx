@@ -1,1 +1,0 @@
-export { GradientLine } from './index'
